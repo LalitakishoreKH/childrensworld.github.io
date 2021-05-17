@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content ="with=device-width,initial-scale=1.0">
+    <title>CHILDREN'S WORLD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="types.html">TYPES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!----about us content---->
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the most demanded Toyshop in Madurai</h1>
+                <p>In last week's The Hindu article our shop has been recogonised as the number one in selling child products and toys in Madurai.It made us very proud and in 27th Feb 2018 we have got an award from Chief Minister for one the best shops in Tamil Nadu.Our reason for the success is the products which has been sold by us are made by our Indians. </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/auto3.jpg">
+            </div>
+        </div>
+    </section>
+   
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We have started this in the year of 2002.From upto date we have not done a single mistakes to our customers by giving them a older and damaged products.<br>For the last 2 years our online marketing has reached the peak.We love our each and single customers.</p>
+        <p>Made by CHILDREN'S WORLD</p>
+    </section>
+
+
+
+
+
+
+    <!-------------JavaScript for Toggle Menu----------->
+    <script>
+        var navLinks= documents.getElementById("NewLinks");
+        function showMenu(){
+            newlinks.style.right="0";
+        }
+        function showMenu(){
+            newLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+
+</html>
